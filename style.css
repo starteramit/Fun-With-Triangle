@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
+body {
+  background: orange;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  background: rgb(255, 200, 97);
+  width: 100%;
+  max-width: 750px;
+  margin: auto;
+  border-radius: 10px;
+  margin-top: 5rem;
+}
+
+#options {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 410px;
+}
+
+a {
+  font-size: large;
+  color: black;
+  text-decoration: none;
+  cursor: auto;
+  background: rgb(255, 220, 155);
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+a:hover,
+button:hover {
+  background: orange;
+}
+
+input {
+  width: 240px;
+  padding: 5px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  margin: 10px;
+  padding: 10px;
+  font-size: large;
+}
+
+button {
+  width: 150px;
+  border-radius: 5px;
+  outline: none;
+  border: grey;
+  font-size: large;
+  padding: 5px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.output {
+  font-size: 30px;
+}
+
+p,
+label {
+  font-size: large;
+}
+
+form {
+  margin: 20px;
+}
+
+h2 {
+  padding: 10px;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 250px;
+}
+
+label input {
+  width: 15px;
+}
